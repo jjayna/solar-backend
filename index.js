@@ -5,7 +5,7 @@ const OpenAI = require("openai");
 
 // const path = require("path");
 const cors = require("cors");
-const connectDB = require("./src/config/connectDB");
+const connectDB = require("./src/config/connectDb");
 const PORT = process.env.PORT || 5000;
 const app = express();
 
